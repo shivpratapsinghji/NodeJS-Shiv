@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+      <title>Sign-Up</title>
+      <style type="text/css">
+	
+            #text{
+      
+                  height: 25px;
+                  border-radius: 5px;
+                  padding: 4px;
+                  border: solid thin blue;
+                  width: 100%;
+            }
+      
+            #button{
+      
+                  padding: 10px;
+                  width: 100px;
+                  color: #000;
+                  background-color: lightblue;
+                  border: none;
+                  box-sizing: border-box;
+                  border: solid thin blue;
+            }
+      
+            #box{
+      
+                  background-image: linear-gradient(white,pink);
+                  margin: auto;
+                  width: 300px;
+                  padding: 20px;
+                  box-sizing: border-box;
+                  border: solid thin blue;
+            }
+            #main{
+                  padding: 0;
+                  margin: 0;
+                  background-image: linear-gradient(pink,white);
+            }
+      
+            </style>
+</head>
+<body>
+      <%- include('common/nav') -%>
+      <section id="main">
+            <div id="box">
+                  
+                  <form method="post">
+                        <div style="font-size: 20px;margin: 10px;color: #000;"><h3>Signup Page</h3></div>
+                  <label>Email Id : </label> 
+                        <input id="text" type="text" name="user_name"><br><br><br>
+                        <label>Password : </label> 
+                        <input id="text" type="password" name="password"><br><br><br>
+      
+                        <input id="button" type="submit" value="Signup"><br><br><br>
+      
+                        <a href="/login">Click Here to Login</a><br><br><br>
+                  </form>
+            </div>
+      </section>
+      <%- include('common/footer') -%>	
+</body>
+</html>

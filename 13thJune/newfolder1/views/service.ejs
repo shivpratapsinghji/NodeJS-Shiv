@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+      <title>Service</title>
+</head>
+<body>
+      <%- include('common/nav') -%>
+
+
+      <h1>Services</h1>
+
+      
+<section id="footer">
+       
+      <div class="footer-row">
+          
+          <div class="footer-col">
+              <h1>Service 1</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem autem alias maiores consequuntur a odit, non doloribus dolores sit?</p>
+             
+         </div>
+         <div class="footer-col">
+            <h1>Service 2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem autem alias maiores consequuntur a odit, non doloribus dolores sit?</p>
+           
+       </div>
+
+       <div class="footer-col">
+            <h1>Service 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem autem alias maiores consequuntur a odit, non doloribus dolores sit?</p>
+           
+       </div>
+
+       <div class="footer-col">
+            <h1>Service 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem autem alias maiores consequuntur a odit, non doloribus dolores sit?</p>
+           
+       </div>
+
+       <div class="footer-col">
+            <h1>Service 5</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem autem alias maiores consequuntur a odit, non doloribus dolores sit?</p>
+           
+       </div>
+
+       <div class="footer-col">
+            <h1>Service 6</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem autem alias maiores consequuntur a odit, non doloribus dolores sit?</p>
+           
+       </div>
+
+       
+          
+      </div>
+  </section>
+
+
+      <%- include('common/footer') -%>
+
+
+      <style>
+            h1{
+                  color: rgb(236, 83, 56);
+                  font-size: 50px;
+                  text-align: center;
+            }
+
+            #footer{
+    padding: 100px 0 20px;
+    
+    position: relative;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+.footer-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #000;
+    cursor: pointer;
+    transform: translateY(0);
+    transform: .5s;
+   
+       
+}
+
+
+
+.footer-row h1{
+    margin: 10px 0;
+    
+}
+.footer-col h1{
+    color:#009688;
+}
+.footer-col p{
+    color:#024e47;
+}
+.footer-row p{
+    line-height: 35px;
+}
+.footer-col:hover{
+    transform: translateY(-7px);
+    background: linear-gradient(pink,lightgreen);
+}
+
+
+
+
+      </style>
+</body>
+</html>
